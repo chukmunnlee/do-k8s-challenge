@@ -41,6 +41,9 @@ Create a configuration file - `webhook.cnf`
 	req_extensions = req_ext
 	x509_extensios = x509_ext
 
+	[ dn ]
+	emailAddress = admin@webhook.com
+
 	[ req_ext ]
 	basicConstraints = CA:FALSE
 	keyUsage = nonRepudiation, digitalSignature, keyEncipherment
